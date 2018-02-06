@@ -10,7 +10,7 @@ let fivedayUrl = fiveday + "?lat=" + lat + "&lon=" + long + "&APPID=" + apiKey
 
 var fs = require("fs");
 var host = "127.0.0.1";
-var port = 8000;
+var port = 8001;
 var express = require("express");
 var path = require("path");
 var fetch = require("node-fetch");
