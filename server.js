@@ -20,7 +20,7 @@ var app = express();
 app.use(express.static(__dirname + "/public")); //use static files in ROOT/public folder
 
 app.get("/", function(req, res){ //root dir
-    res.sendFile(path.join(__dirname+'/public/weather.html'));
+    res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
 const Current = require('./public/js/models/current.js');
